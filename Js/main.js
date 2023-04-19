@@ -89,3 +89,8 @@ function startOver()
   gamePattern = [];
   started = false;
 }
+
+if (innerHeight > innerWidth)
+{
+  document.querySelector(".btn").classList.toggle("phone")
+}
